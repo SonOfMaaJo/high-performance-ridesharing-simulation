@@ -1,8 +1,9 @@
 #!/bin/bash
 
 # Configuration
-PROJECT_DIR="/home/sonOfMaaJo/project_memory/cergy_simulation"
-VENV_PATH="/home/sonOfMaaJo/.venv/bin/python3"
+# Detect the directory where the script is located
+PROJECT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+VENV_PATH="$PROJECT_DIR/.venv/bin/python3"
 RESULTS_DIR="$PROJECT_DIR/results"
 DATE=$(date '+%Y-%m-%d_%H-%M-%S')
 

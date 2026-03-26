@@ -1,0 +1,32 @@
+# Data files (Very large)
+data/**/*.graphml
+data/**/*.zip
+data/**/*.csv
+data/**/*.shp
+data/**/*.dbf
+data/**/*.prj
+data/**/*.shx
+data/**/*.bin
+data/**/*.DCB
+data/**/*.DCC
+data/**/*.mtx
+data/**/*.net
+data/**/*.pts
+data/**/*.aem
+data/**/01_Input_data/
+data/**/02_TransCAD_results/
+data/**/03_AequilibraE_results/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
+
+# Others
+.DS_Store
+.idea/
+.vscode/
